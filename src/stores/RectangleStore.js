@@ -27,7 +27,6 @@ class RectangleStore {
   }
 
   saveRotatedRectangles(rectangles) {
-    debugger
     store.set(LOCAL_STORAGE_KEYS.ROTATED_RECTANGLES, rectangles);
   }
 
